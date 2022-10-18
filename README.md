@@ -10,4 +10,7 @@ Pour ceux qui ne savent pas comment utiliser github, cliquez sur le bouton code,
 ### CSS
 - à commencer
 ### Maps
-- Utilisation de https://www.add-map.net/ pour le moment
+- Utilisation de https://www.add-map.net/ pour le moment, à voir pour la suite
+### Formulaire
+- Compléter formulaire
+- Redimensionner formulaire sur la page
