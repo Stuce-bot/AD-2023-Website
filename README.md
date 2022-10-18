@@ -7,10 +7,13 @@ Pour ceux qui ne savent pas comment utiliser github, cliquez sur le bouton code,
 ## Todo list
 ### HTML
 - Tout les textes sont a revoire/faire
+- Ajouter premier exemple d'activitée pour avoir un template
 ### CSS
 - à commencer
 ### Maps
-- Utilisation de https://www.add-map.net/ pour le moment, à voir pour la suite
+- pour ajouter une carte, chercher la carte sur maps, cliquer sur partager puis intégrer une carte.
 ### Formulaire
 - Compléter formulaire
 - Redimensionner formulaire sur la page
+### JavaScript
+- à commencer
