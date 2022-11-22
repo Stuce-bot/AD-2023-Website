@@ -4,3 +4,6 @@ AD2022 website
   This Source Code Form is subject to the terms of the Mozilla Public
   License, v. 2.0. If a copy of the MPL was not distributed with this
   file, You can obtain one at http://mozilla.org/MPL/2.0/.
+menu icon (not used yet tho)
+	CC0
+	https://www.svgrepo.com/svg/36538/menu
