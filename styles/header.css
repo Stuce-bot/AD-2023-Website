@@ -9,6 +9,9 @@ header {
     justify-content: space-between;
     z-index: 1000;
   }
+  header a{
+    text-decoration: none;
+  }
   header .logo {
     font-weight: bolder;
     font-size: 25px;
