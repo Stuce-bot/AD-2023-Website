@@ -14,6 +14,7 @@ Cliquez ici pour voir [l'avancée du site](https://stuce-bot.github.io/AD-2023-W
 - rien pour le moment
 ### CSS
 - faire un menu de selection pour les cartes
+- améliorer l'accordéon
 ### DEVLOG :
 - 01.12.22 accordéon
 <br> création du squelette du menu accordéon présentant les acctivitées, inspire de [Mr.Web Designer](https://youtu.be/eIEnnMjcrs0)
