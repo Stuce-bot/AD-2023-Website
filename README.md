@@ -15,9 +15,12 @@ entre les différentes cartes en css avec plusieurs implémentations (surement p
 ### JavaScript
 - animation accordéon ?
 ### CSS
+- regler un probleme ou le menu peut ne plus etre centre si il y a un scroll horizontal
 - paufiner forme polynome
 - ajouter icone langue, dropdown version large et split horizontal version mobile ?
-- ajouter un format element accordéon avec une image, un texte d'intro, un texte plus détaillé év. une carte et ajouter au calendrier. 
+- ajouter un format element accordéon avec une image, un texte d'intro, un texte plus détaillé év. une carte et ajouter au calendrier.
+### Accesibilite
+- rendre le bouton menu accessible par clavier uniquement
 ### DEVLOG :
 - 03.01.23 polygone mobile
 <br> ajout d'un dessin à gauche évoquant la paroi d'une grotte pour fin estetique sur la version mobile
