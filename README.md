@@ -4,7 +4,7 @@ Cette page permet de partager l'avancée du site web de l'AD-2023.
 Cliquez ici pour voir [l'avancée du site](https://stuce-bot.github.io/AD-2023-Website/index.html)
 ## À faire :
 ### HTML
-- tout les textes sont à faire
+- tous les textes sont à faire
 
 ### Carte
 - créer une liste coordonées à joindre
@@ -13,11 +13,15 @@ entre les différentes cartes en css avec plusieurs implémentations (surement p
 ### Formulaire
 - écrire le formulaire
 ### JavaScript
-- rien pour le moment
+- animation accordéon ?
 ### CSS
+- paufiner forme polynome
 - ajouter icone langue, dropdown version large et split horizontal version mobile ?
-- améliorer l'accordéon : peut être ouverture progressive, changer couleurs et bordures, ...
+- ajouter un format element accordéon avec une image, un texte d'intro, un texte plus détaillé év. une carte et ajouter au calendrier. 
 ### DEVLOG :
+- 03.01.23 polygone mobile
+<br> ajout d'un dessin à gauche évoquant la paroi d'une grotte pour fin estetique sur la version mobile
+<hr>
 - 01.12.22 accordéon
 <br> création du squelette du menu accordéon présentant les acctivitées, inspire de [Mr.Web Designer](https://youtu.be/eIEnnMjcrs0)
 <hr>

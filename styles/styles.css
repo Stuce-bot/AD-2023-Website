@@ -17,3 +17,26 @@ body {
 
 
 
+
+@media(max-width:991px){
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#polygon {
+  flex-basis: 20%;
+  min-height: 90vh;
+  box-sizing: border-box;
+  background: #ffff00;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 30%, 20% 35%, 30% 45%, 15% 60%, 0% 100%);
+  float: left;
+  overflow: hidden;
+  flex: 1;
+}
+
+#body {
+  flex-basis: 80%;
+  box-sizing: border-box;
+}
+}

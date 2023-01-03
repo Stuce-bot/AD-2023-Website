@@ -1,16 +1,23 @@
 .container{
     padding-bottom: 70px;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: left;
-    
+}
 
+.container:target {
+    
+    
 }
 .container section{
     width: 700px;
     margin: 5px;
 }
 
+.container section details summary:active{
+    transition: 4.0s all linear;
+
+}
 .container section details summary{
     padding: 15px;
     background: var(--mainYellow);
@@ -21,6 +28,7 @@
     outline: none;
     cursor: pointer;
     font-size: 20px;
+
 
 }
 
@@ -38,6 +46,7 @@
     font-size: 30px;
     color: #000;
     transition: .2s linear;
+    
 }
 .container section details[open] summary::after{
     transform: rotate(135deg);
