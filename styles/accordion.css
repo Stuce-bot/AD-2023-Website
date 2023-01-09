@@ -15,7 +15,7 @@
 }
 .container section details summary{
     padding: 15px;
-    background: var(--mainYellow);
+    background: #ff0;
     color: #000;
     border: 1px solid #444;
     position: relative;
@@ -48,5 +48,13 @@
 }
 
 .container section details[open] summary{
-    background: var(--secondaryYellow);
+    background: #ff0;
+}
+@media(min-width:991px){
+    .container section details[open] summary{
+        background: #8F845D;
+    }
+    .container section details summary{
+        background: #8F845D;
+    }
 }

@@ -22,6 +22,9 @@ entre les différentes cartes en css avec plusieurs implémentations (surement p
 ### Accesibilite
 - rendre le bouton menu accessible par clavier uniquement
 ### DEVLOG :
+  09.01.23 theme desktop
+  <br> ajout d'un dessin d'un nain et recolloriage du theme desktop
+  <hr>
 - 03.01.23 polygone mobile
 <br> ajout d'un dessin à gauche évoquant la paroi d'une grotte pour fin estetique sur la version mobile
 <hr>

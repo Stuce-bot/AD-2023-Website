@@ -1,6 +1,7 @@
 header {
     position : sticky;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    width:  100%;
     background: #FFFF00;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);  
     padding: 20px;
@@ -15,7 +16,7 @@ header {
   }
   header .logo {
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 2.5em;
     color: #333;
   }
   
@@ -37,7 +38,7 @@ header {
     width: 100%;
   }
   header .navbar ul li a{
-    font-size: 20px;
+    font-size: 2em ;
     padding: 20px;
     color: #333;
     display: block;
@@ -50,7 +51,7 @@ header {
     display : none;
   }
   header label {
-    font-size: 20px;
+    font-size: 2em;
     color:#333;
     cursor: pointer;
     display : initial;
@@ -59,10 +60,10 @@ header {
     display:initial;
   }
   
-  
+  /* @media(min-width:1px){ */
   @media(min-width:991px){
     header{
-      
+      background: #604E37;
       padding: 0px 2%;
     }
     header label {
@@ -74,6 +75,14 @@ header {
     header .navbar ul li{
       width: unset;
     }
+
+    header .navbar ul li a{
+      color: #ffffff;
+    }
+    header .logo {
+      color: #ffffff;
+    }
+
     #menu-bar:checked ~ .navbar{
       display:unset;
     }
