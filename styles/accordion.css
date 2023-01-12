@@ -58,3 +58,9 @@
         background: #8F845D;
     }
 }
+
+@media(min-width:991px){
+    .container details{
+        margin-bottom: 5px;
+    }
+}

@@ -41,7 +41,9 @@ main {
   overflow: hidden;
   flex: 1;
 }
-
+#polygon img {
+  display:none;
+}
 #body {
   flex-basis: 80%;
   box-sizing: border-box;
@@ -70,11 +72,15 @@ main {
     height: auto;
   }
   #polygon img {
+    display:unset;
     width: 310px;
     object-position: 0px -800px;
   }
   #body {
     flex-basis: 100%;
   }
+  #map{
+    border:4px solid #604E37;
+    }
   
 }
