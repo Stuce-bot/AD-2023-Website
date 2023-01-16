@@ -51,16 +51,18 @@
     background: #ff0;
 }
 @media(min-width:991px){
+    .container section details{
+        margin-bottom: 5px;
+    }
     .container section details[open] summary{
         background: #8F845D;
     }
     .container section details summary{
         background: #8F845D;
     }
-}
+    .container section details small{
+        float: right;
+        margin-right: 25px;
 
-@media(min-width:991px){
-    .container details{
-        margin-bottom: 5px;
     }
 }
