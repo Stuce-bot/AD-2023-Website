@@ -16,17 +16,19 @@ body {
   background: #000;
 }
 
-a #nodeco{
+a {
   text-decoration: none;
-  color: inherit
-
+  color: inherit;
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 0.75em;
 }
 
-
+h1, h2, h3, h4 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+} 
 
 main {
   display: flex;
