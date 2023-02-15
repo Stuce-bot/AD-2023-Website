@@ -1,0 +1,75 @@
+<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting  -->
+<!DOCTYPE html>
+<html lang="fr-CH">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Fabrice Saucy" />
+    <meta name="description" content="Page principale du site dédié aux informations concernant l'assemblée des délégués de la société suisse de spéléologie (SSS), organisée par le Spéléo club Jura (SCJ) et le Groupe spéléologique de Porrentruy(GSP).">
+    <title>AD 2023</title>
+    <link rel="shortcut icon" href="images/speleo.ch.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+        <a class = "logo" href="index.html" class="main" title="Retour à la page d'acceuil">AD 23 </a>
+        <input type = "checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+  
+        <nav class = "navbar">
+          <ul>
+            <li><a href="index.html" title="Retour à la page d'accueuil">Accueil</a></li>
+            <li><a href="lieu.html" title="Plan et adresse de l'évènement">Lieu</a></li>
+            <li><a href="sorties.html" title="Listes des différentes sorties proposées">Sorties</a></li>
+            <li><a href="nuitees.html" title="Propositions pour les nuitées">Nuitées</a></li>
+            <li><a href="inscriptions.html" title="Formulaire d'inscription">Inscriptions</a></li>
+            <li><a href="DEindex.html" title="Sprache auf Deutsch tauschen">DE</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+
+    <main>
+        <div id="polygon"><img src ="images/Illustration_sans_titre2.svg"></div>
+
+        <div id="body">
+            <h1>Propositions pour les nuitées :</h1>
+                <h2>Camping, camping car,...</h2>
+                    <p>Un camping et un parking seront à dispositions gratuitement. <br> texte a completer : distance lieux ev. carte etc</p>
+                <h2>Dortoir</h2>
+                    <p>Possibilité de dormir au chalet le refuge, 18.- par adulte, 14.- par enfant. <br> texte a completer : distance, etc verifier prix et autre</p>
+                    <details>
+                        <summary>Cliquer pour voir la carte</summary>
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116898.7349253035!2d7.09216934165378!3d47.2067655373472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e018ddf3676ef%3A0x251c97dbc558b46b!2sChalet%20de%20la%20Croix-Bleue%20Le%20Refuge!5e0!3m2!1sfr!2sch!4v1676470572116!5m2!1sfr!2sch" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </details>
+                    
+                <h2>Hotels à proximité</h3>
+                    <h3>Tramelan :</h3>
+                        <p>CIP Hôtel : <a href="https://www.hotel-seminaire-cip.ch/">site officiel</a> | <a href="https://www.booking.com/hotel/ch/cip-tramelan.fr.html?aid=318615&label=New_French_FR_CH_26234553745-aeTN7caJdBq7XO9QsXukAwS640938625613%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi55311329857%3Atidsa-302962658775%3Alp1002964%3Ali%3Adec%3Adm%3Aag145692637136%3Acmp19573235244&sid=723d0231a4ddf85fcef044992dfbfb2b&dest_id=-2554494;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=6;hpos=6;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1674211525;srpvid=52714ba1c2ad01f6;type=total;ucfs=1&#hotelTmpl">Booking.com</a></p>
+                        <p>L'Union B&B : <a href="https://unionbnb.ch/">site officiel</a>|<a href="https://www.booking.com/hotel/ch/restaurant-de-l-39-union-sa.fr.html?aid=318615&label=New_French_FR_CH_26234553745-aeTN7caJdBq7XO9QsXukAwS640938625613%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi55311329857%3Atidsa-302962658775%3Alp1002964%3Ali%3Adec%3Adm%3Aag145692637136%3Acmp19573235244&sid=723d0231a4ddf85fcef044992dfbfb2b&dest_id=-2554494;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1674211525;srpvid=52714ba1c2ad01f6;type=total;ucfs=1&#hotelTmpl">Booking.com</a></p>
+                        <p>Vent du Nord  : <a href="http://ventdunord.ch/?page_id=1355">site officiel</a> | <a href="https://www.booking.com/hotel/ch/vent-du-nord-les-reussilles.fr.html?aid=318615&label=New_French_FR_CH_26234553745-aeTN7caJdBq7XO9QsXukAwS640938625613%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi55311329857%3Atidsa-302962658775%3Alp1002964%3Ali%3Adec%3Adm%3Aag145692637136%3Acmp19573235244&sid=723d0231a4ddf85fcef044992dfbfb2b&dest_id=-2554494&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=3&hpos=3&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1674211525&srpvid=52714ba1c2ad01f6&type=total&ucfs=1&activeTab=main">Booking.com</a></p>
+                    <h3>Saignelégier</h3>
+                        <p>Hôtel Bellevue : <a href="https://hotels-saignelegier.ch/chambres/">site officiel</a> | <a href="https://www.booking.com/hotel/ch/de-la-gare-saignelegier.fr.html?aid=1288233&label=metagha-link-MRCH-hotel-299147_dev-desktop_los-1_bw-25_dow-Tuesday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6623582131_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230214__lp-1002964_r-227980988565639068&sid=723d0231a4ddf85fcef044992dfbfb2b&all_sr_blocks=29914701_264997232_0_2_0;checkin=2023-02-14;checkout=2023-02-15;dest_id=-2553940;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=29914701_264997232_0_2_0;hpos=1;matching_block_id=29914701_264997232_0_2_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=29914701_264997232_0_2_0__12950;srepoch=1674212517;srpvid=4ee04d92a2f3010b;type=total;ucfs=1&#hotelTmpl">Booking.com</a></p>
+                        <p>Jura Resort auberge de jeunesse : <a href="https://jura-resort.ch/auberge-de-jeunesse">site officiel</a> | <a href="https://www.booking.com/hotel/ch/auberge-de-jeunesse-saignelegier.fr.html?aid=1288233&label=metagha-link-MRCH-hotel-299147_dev-desktop_los-1_bw-25_dow-Tuesday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6623582131_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230214__lp-1002964_r-227980988565639068&sid=723d0231a4ddf85fcef044992dfbfb2b&all_sr_blocks=905163901_361567927_1_1_0%2C905163901_361567927_1_1_0;checkin=2023-02-14;checkout=2023-02-15;dest_id=-2553940;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=4;highlighted_blocks=905163901_361567927_1_1_0%2C905163901_361567927_1_1_0;hpos=4;matching_block_id=905163901_361567927_1_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=905163901_361567927_1_1_0__5400%2C905163901_361567927_1_1_0__5400;srepoch=1674212073;srpvid=6be14cb33b4800dd;type=total;ucfs=1&#hotelTmpl">Booking.com</a></p>
+                        <p>Jura Resort hotel: <a href="https://jura-resort.ch/chambres">site officiel</a> <a href="https://www.booking.com/hotel/ch/ha-tel-cristal.fr.html?aid=1288233&label=metagha-link-MRCH-hotel-299147_dev-desktop_los-1_bw-25_dow-Tuesday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6623582131_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230214__lp-1002964_r-227980988565639068&sid=723d0231a4ddf85fcef044992dfbfb2b&all_sr_blocks=37212202_240728468_2_1_0;checkin=2023-02-14;checkout=2023-02-15;dest_id=-2553940;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;highlighted_blocks=37212202_240728468_2_1_0;hpos=3;matching_block_id=37212202_240728468_2_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=37212202_240728468_2_1_0__17800;srepoch=1674212073;srpvid=6be14cb33b4800dd;type=total;ucfs=1&#hotelTmpl">Booking.com</a></p>
+                        <p>Hôtel de la Gare : <a href="https://www.hoteldelagare-saignelegier.ch/">site officiel</a></p>
+                    <h3>Bellelay</h3>
+                        <p>Hôtel de l'Ours : <a href="https://adb4u.ch/">site officiel</a> </p>
+                    <h3>Les Breuleux</h3>    
+                        <p>Hôtel de la Balance : <a href="https://www.juragourmand.ch/toutes-les-tables/restaurant/hotelbalance">site officiel</a></p>
+                    <h3>Le Noirmont</h3>
+                        <p>Hôtel du Soleil : <a href="https://www.juragourmand.ch/toutes-les-tables/restaurant/lesoleilaunoirmont">site officiel</a></p>
+                        <p>Maison Wenger : <a href="https://maisonwenger.ch/">site officiel</a></p>    
+            
+        </div>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
