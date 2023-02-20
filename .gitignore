@@ -1,2 +1,5 @@
 tests
 AD 2023.code-workspace
+.metals/metals.lock.db
+.metals/metals.log
+.metals/metals.mv.db
