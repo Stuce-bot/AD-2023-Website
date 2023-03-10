@@ -63,12 +63,14 @@ header {
   #menu-bar:checked ~ .navbar{
     display:initial;
   }
-  
+  header br{
+      display: none;
+  }
   /* @media(min-width:1px){ */
   @media(min-width:991px){
     header{
       background: #604E37;
-      padding: 0px 2%;
+      padding: 0px 1%;
     }
     header label {
       display: none;
@@ -82,7 +84,9 @@ header {
 
     header .navbar ul li a{
       color: #ffffff;
+      padding: 10px;
     }
+    
     header .logo {
       color: #ffffff;
     }
@@ -90,4 +94,8 @@ header {
     #menu-bar:checked ~ .navbar{
       display:unset;
     }
+    header br{
+      display: unset;
+  }
+
   }
