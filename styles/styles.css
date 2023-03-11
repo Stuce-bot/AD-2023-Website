@@ -83,7 +83,7 @@ main {
   #polygon img {
     display:unset;
     width: 310px;
-    object-position: 0px -800px;
+    object-position: 0px -600px;
   }
   #body {
     flex-basis: 100%;
