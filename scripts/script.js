@@ -1,5 +1,6 @@
 // TODO MAKE IT MOBILE ONLY !!!!!!!!!!!!
 const nain = document.getElementById("nain");
+const nain2 = document.getElementById("nain2");
 const polygon = document.getElementById("polygon")
 const main = document.querySelector("main");
 
@@ -10,30 +11,30 @@ var body = document.body,
 
 var height = Math.max( body.scrollHeight, body.offsetHeight, 
                        html.clientHeight, html.scrollHeight, html.offsetHeight );
+var scrollPercentage=0;
 
 var string;
 var parterre = false;
-var maxScroll = -600;
+var maxScroll = -500;
 addEventListener("scroll", (event) => {});
 onscroll = (event) => {
-    if (!parterre) {
-        maxScroll = Math.max(maxScroll,(document.documentElement.scrollTop || document.body.scrollTop) - 600);
-        string = "0px "+maxScroll+"px";
-        nain.style.objectPosition = string;
-    }
+    if (window.innerWidth > 991){
+        var docElm = document.documentElement,
+            pos = ( document.body.scrollTop || docElm.scrollTop || docElm.scrollTop) / ( docElm.scrollHeight - docElm.clientHeight );
 
-    if (!parterre && window.innerHeight + window.scrollY > height - 50 ) { 
-        parterre = true;
-        console.log("NEED TO PUT THE NAIN PARTERRE");
-        nain.style.opacity="0"
-        const div = document.createElement("img");
-        div.src = "images/nain2.png";
-        div.style.position = "absolute";
-        div.style.bottom = "0px"
-        div.style.left = "0"
-        div.style.width= "200px"
-        div.style.height= "240px"
-        document.body.appendChild(div)
-    }  
- 
+
+
+        if (!parterre) {
+            string = (-500 + (window.innerHeight-400)*pos)+"px";
+            console.log(string+" <- "+pos);
+            nain.style.top = string;
+        }
+
+        if (!parterre && window.innerHeight + window.scrollY > height - 10 ) { 
+            parterre = true;
+            // console.log("NEED TO PUT THE NAIN PARTERRE");
+            nain.style.opacity="0";
+            nain2.style.opacity="1";
+        }  
+    }
 };
