@@ -16,10 +16,10 @@ body {
   background: #000;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: inherit;
-}
+} */
 
 p {
   margin-bottom: 0.75em;
